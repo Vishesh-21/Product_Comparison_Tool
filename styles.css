@@ -71,6 +71,13 @@ table {
   text-align: center;
 }
 
+tbody input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid gray;
+}
+
 th,
 td {
   padding: 12px;
