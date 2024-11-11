@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Product Comparison Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Product Comparison Tool</h1>
+
+    <div class="controls">
+      <input type="text" id="productName" placeholder="Enter Product Name">
+      <button onclick="addProduct()">Add Product</button>
+      <input type="text" id="featureName" placeholder="Enter Feature Name">
+      <button onclick="addFeature()">Add Feature</button>
+    </div>
+
+    <div class="table-container">
+      <table id="comparisonTable">
+        <thead>
+          <tr id="productHeader">
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
